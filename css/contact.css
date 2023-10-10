@@ -14,14 +14,63 @@
 form{
     display: flex;
     flex-direction: column;
-    align-items: end;
-    padding-top: 40px;
+    border: 1px solid transparent;
+    padding: 50px;
+    background: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 10px 10px 53px -2px rgba(0, 0, 0, 0.25);
+
 }
 input, textarea{
-    border: 1px solid #9E5A3D;
+    border: 1px dashed #9E5A3D;
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 10px;
      width: 400px;
      background: #F4F4F4;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.left-card{
+    border: 1px solid transparent;
+    background: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 10px 10px 53px -2px rgba(0, 0, 0, 0.25);
+    height: 200px;
+    margin-top: 70px;
+    margin-right: 50px;
+    padding: 50px 40px;   
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    line-height: 30px;
+}
+.info-item p{
+    margin-left: 15px;
+}
+.info-item i{
+    font-size: 25px;
+}
+.button{
+    margin-top: 20px;
+    width: 441px;
+    border: none;
+    background: #9E5A3D;
+    color: #fff;
+    font-size: 18px;
+}
+.button:hover{
+    color: #9E5A3D;
+    background:transparent;
+    border: 1px dashed #9E5A3D;
+    transition: 1s ease;
 }
