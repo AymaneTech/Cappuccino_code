@@ -193,9 +193,9 @@ footer{
     margin-top: 90px;
 }
 .top{
-     display: flex;
-     justify-content: space-evenly;
-     padding: 90px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px 100px;
 }
 .top .footer-navbar ul {
     list-style: none;
