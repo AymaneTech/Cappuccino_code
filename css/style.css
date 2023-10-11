@@ -54,12 +54,20 @@ nav ul li a:hover{
     font-size: 50px;
     text-transform: uppercase;
     color: #fff;
+    transition: 1s ease;
+}
+.home h1:hover, p:hover{
+    transform: scale(1.1);
 }
 .home p{
     margin-top: 30px;
     color: #fff;
     font-size: 16px;
     line-height: 20px;
+    transition: 1s ease;
+}
+p{
+    transition: 1s ease;
 }
 .btn{
     margin-top: 30px;
@@ -100,6 +108,10 @@ nav ul li a:hover{
     color: #471E22;
     font-size: 33px;
     margin-bottom: 40px;
+    transition: 1s ease;
+}
+.content h2:hover{
+    transform: scale(1.1);
 }
 .content p{
     margin-bottom: 40px;
@@ -121,6 +133,10 @@ nav ul li a:hover{
     padding: 40px 40px;
     font-size: 50px;
     color: #fff;
+    transition: 1s ease;
+}
+.title-cadre h2:hover{
+    transform: scale(1.1);
 }
 .hours{
     margin-top: 40px;
@@ -151,6 +167,10 @@ nav ul li a:hover{
     text-align: start;
     padding: 60px;
     font-size: 40px;
+    transition: 1s ease;
+}
+.menu-section .title-sec h2:hover{
+    transform: scale(1.1);
 }
 .menu-items{
     display: flex;
@@ -234,6 +254,7 @@ footer{
     background-image: url(../Images/footer.png);
     background-size: cover;
     height: 500px;
+    margin-bottom: 0;;
 }
 .top{
      display: flex;
