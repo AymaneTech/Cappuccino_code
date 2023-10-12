@@ -251,7 +251,7 @@ p{
     border: 2px solid #471E22;
 }
 footer{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Images/footer.png);
+    background-image: url(../Images/footer.png);
     background-size: cover;
     height: 500px;
     margin-bottom: 0;;

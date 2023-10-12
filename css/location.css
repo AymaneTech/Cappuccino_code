@@ -41,6 +41,7 @@ nav ul li a:hover{
 .location-background{
     background-image: url(../Images/stah.jpg);
     background-size: cover;
+    background-attachment:  fixed;
     height: 700px;
 }
 .maps .section-title{
