@@ -50,7 +50,7 @@
             <h2>Bartons Coffee Menu</h2>
         </div>
         <div class="filter">
-            <ul>
+            <ul class="filter-list">
                 <li><a class="active" href="#">ALL</a></li>
                 <li><a href="#">Hot Coffee</a></li>
                 <li><a href="#">Ice Coffee</a></li>
@@ -69,7 +69,7 @@
         </div>
         <div class="menu-section">
             <div class="menu-items">
-                <div class="product">
+                <div class="product" data-filter="hotCoffee">
                     <img src="Images/product/product1.png" alt="product 1">
                     <h3 class="product-name">
                         Cappuccino
@@ -84,10 +84,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="hotCoffee">
                     <img src="Images/product/product2.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                        Espresso
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -99,10 +99,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="iceCoffee">
                     <img src="Images/product/product3.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                        american coffee
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -114,10 +114,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="iceCoffee">
                     <img src="Images/product/product3.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                        italiano 
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -137,10 +137,10 @@
         </div>
         <div class="menu-section">
             <div class="menu-items">
-                <div class="product">
+                <div class="product" data-filter="iceCoffee">
                     <img src="Images/product/product1.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                        ice coffee
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -152,10 +152,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="iceCoffee">
                     <img src="Images/product/product2.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                        matcha
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -167,10 +167,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="iceCoffee">
                     <img src="Images/product/product3.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                        cold java
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -182,10 +182,10 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="hotCoffee">
                     <img src="Images/product/product3.png" alt="product 1">
                     <h3 class="product-name">
-                        Cappuccino
+                            
                     </h3>
                     <p class="description">
                         Elevate your mornings with the rich aroma of Bartons.
@@ -211,7 +211,7 @@
         </div>
         <div class="menu-section">
             <div class="menu-items">
-                <div class="product">
+                <div class="product" data-filter="bakedGood">
                     <div class="max-width">
                         <img class="baked-goods" src="Images/product/croissant-n.jpg" alt="product 1">
                     </div>
@@ -228,7 +228,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="bakedGood">
                     <div class="max-width">
                         <img class="baked-goods" src="Images/product/creme.jpg" alt="product 1">
                     </div>
@@ -245,7 +245,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="bakedGood">
                     <div class="max-width">
                         <img class="baked-goods" src="Images/product/croissant.jpg" alt="product 1">
                     </div>
@@ -262,7 +262,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="product">
+                <div class="product" data-filter="bakedGood">
                     <div class="max-width">
                         <img class="baked-goods" src="Images/product/product3.png" alt="product 1">
                     </div>
@@ -328,6 +328,7 @@
             <p>© 2023 Bartonsuk Limited. All Rights Reserved.</p>
         </div>
     </footer>
+    <script src="filter.js"></script>
 </body>
 
 </html>²
